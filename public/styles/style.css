@@ -1,101 +1,54 @@
+/* Estilos básicos */
 a {
-    color: purple;
-    margin: auto;
+  color: purple;
+  margin: auto;
 }
 
 .lorem {
-    background-color: burlywood;
+  background-color: burlywood;
 }
 
 #profile_id:hover {
-    color: rgb(255, 0, 255);
-
+  color: rgb(255, 0, 255);
 }
 
-/* Estilos para la navbar personalizada */
-.custom-navbar {
-    background: linear-gradient(135deg, #2b5876, #4e4376);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    padding: 12px 0;
-  }
-  
-  .navbar-brand {
-    font-weight: 700;
-    font-size: 1.4rem;
-    color: white !important;
-    letter-spacing: 0.5px;
-  }
-  
-  .nav-item {
-    margin: 0 5px;
-  }
-  
-  .nav-link {
-    color: rgba(255, 255, 255, 0.85) !important;
-    font-weight: 500;
-    padding: 8px 15px !important;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    color: white !important;
-    background-color: rgba(255, 255, 255, 0.1);
-    transform: translateY(-2px);
-  }
-  
-  .nav-link.active {
-    color: white !important;
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  /* Estilos para el dropdown */
-  .dropdown-menu {
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    padding: 8px;
-    margin-top: 10px !important;
-  }
-  
-  .dropdown-item {
-    border-radius: 4px;
-    padding: 8px 15px;
-    margin: 2px 0;
-    transition: background-color 0.2s ease;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #f5f5f5;
-  }
-  
-  /* Estilos para la página de login */
-  .login-btn {
-    background: linear-gradient(135deg, #2b5876, #4e4376);
-    border: none;
-    padding: 10px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-  }
-  
-  .login-btn:hover {
-    background: linear-gradient(135deg, #1a3c53, #3a2e5a);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Estilos para la clase lorem */
-  .lorem {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  /* Estilos generales */
-  body {
-    background-color: #f8f9fa;
-  }
-  
-  h1, h2 {
-    color: #2b5876;
-  }
+/* Puedes agregar estos estilos básicos para el navbar */
+.navbar {
+  background-color: #e3f2fd;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #0d6efd !important;
+}
+
+/* Estilos sencillos para el formulario */
+form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  color: #333;
+}
+.login-form {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
