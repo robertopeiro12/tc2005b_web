@@ -54,3 +54,10 @@ h1, h2 {
 }
 
 
+
+/* Estilo simple para el contenedor del botón */
+.btn-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
